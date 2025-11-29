@@ -21,7 +21,7 @@ USER_LANG_FILE = "user_langs.json"
 MODEL_CONFIG = {
     "name": "tngtech/deepseek-r1t2-chimera:free",
     "base_url": "https://openrouter.ai/api/v1",
-    "key": os.getenv("b880da5fce2506a839299356716e2a7075d384aceabf813966a408699d5fceec"),
+    "key": os.getenv("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"),
 }
 
 SITE_URL = "https://github.com/jailideaid/WormGPT"
