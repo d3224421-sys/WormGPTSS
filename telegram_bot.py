@@ -26,7 +26,7 @@ MODEL_CONFIG = {
 
 SITE_URL = "https://github.com/jailideaid/WormGPT"
 SITE_NAME = "WormGPT CLI [ Dangerous And Unsafe ⚠️ ]"
-TELEGRAM_TOKEN = "8436446932:AAGPadDQxKYKQs-SPWjA7SyVA16ssIGLu6Y"
+TELEGRAM_TOKEN = os.getenv("8436446932:AAGPadDQxKYKQs-SPWjA7SyVA16ssIGLu6Y") 
 
 # === Anti-Flood ===
 LAST_MESSAGE_TIME = {}
