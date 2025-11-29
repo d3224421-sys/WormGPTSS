@@ -21,16 +21,16 @@ USER_LANG_FILE = "user_langs.json"
 MODEL_CONFIG = {
     "name": "tngtech/deepseek-r1t2-chimera:free",
     "base_url": "https://openrouter.ai/api/v1",
-    "key": os.getenv("OPENROUTER_KEY"),
+    "key": os.getenv("b880da5fce2506a839299356716e2a7075d384aceabf813966a408699d5fceec"),
 }
 
 SITE_URL = "https://github.com/jailideaid/WormGPT"
 SITE_NAME = "WormGPT CLI [ Dangerous And Unsafe ⚠️ ]"
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_TOKEN = os.getenv("8436446932:AAGPadDQxKYKQs-SPWjA7SyVA16ssIGLu6Y")
 
 # === Anti-Flood ===
 LAST_MESSAGE_TIME = {}
-FLOOD_DELAY = 3
+FLOOD_DELAY = 1
 
 
 # === Load base system prompt ===
