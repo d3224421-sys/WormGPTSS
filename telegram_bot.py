@@ -239,7 +239,7 @@ async def setlang_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 # === Build App ===
-app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
+app = ApplicationBuilder().token(8436446932:AAGPadDQxKYKQs-SPWjA7SyVA16ssIGLu6Y).build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CallbackQueryHandler(language_callback, pattern="^lang_"))
